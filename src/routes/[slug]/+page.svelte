@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Markdown from '$lib/components/markdown.svelte';
+	import Markdown from '$lib/components/Markdown.svelte';
 	import Header from '$lib/components/Header.svelte'
 
 	import type { PageData } from '../[slug]/$types';
@@ -12,5 +12,4 @@
   <Header />
   <slot></slot>
 	<h1>{data.title}</h1>
-	<p>{data.body}</p>
 </div>
