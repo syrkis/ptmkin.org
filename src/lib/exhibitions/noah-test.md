@@ -1,8 +1,8 @@
 ---
-layout: blog
+layout: exhibitions
 title: Noah Test
 date: 2023-05-27T11:10:42.984Z
 thumbnail: /images/343584883_237799075608174_658295505068930556_n.png
-rating: 4
+rating: 1
 ---
-T﻿his is a test yoyo yallah
+This is a test yoyo yalla
