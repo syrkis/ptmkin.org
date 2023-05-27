@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Markdown from '$lib/components/Markdown.svelte';
 	import Header from '$lib/components/Header.svelte'
 
 	import type { PageData } from '../[slug]/$types';
