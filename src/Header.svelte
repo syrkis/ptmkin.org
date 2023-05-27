@@ -1,6 +1,10 @@
 <div class="container">
   <div class="logo">
-    <h1>Potemkin<br/>Contemporary</h1>
+    <h1>
+      <a href="/">
+        Potemkin<br/>Contemporary
+      </a>  
+    </h1>
   </div>
 </div>
 
@@ -13,6 +17,11 @@
     font-size: 4rem;
     font-weight: 50;
     letter-spacing: 0.1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 
   .container {
