@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"front-matter": "^4.0.2"
+		"front-matter": "^4.0.2",
+		"gray-matter": "^4.0.3"
 	}
 }
