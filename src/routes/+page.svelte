@@ -1,6 +1,5 @@
 <script context="module">
   import Header from '$lib/components/Header.svelte'
-  import Posts from '$lib/components/Posts.svelte'
   import fs from 'fs';
   import path from 'path';
   import grayMatter from 'gray-matter';
@@ -33,9 +32,4 @@
 
 
   <Header />
-  <slot></slot>
-  <Posts />
-{#each posts as post}
-  <h2>{post.title}</h2>
-  <p>{post.date}</p>
-{/each}
+<slot></slot>
