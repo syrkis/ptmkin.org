@@ -8,7 +8,7 @@ export const load: PageServerLoad = async ({ params }) => {
 	try {
 		const post = fm<Post>(fs.readFileSync(`src/lib/posts/${params.slug}.md`, 'utf-8'));
 
-		console.log(`[info] processing markdown src/lib/${params.slug}.md`);
+		console.log(`[info] processing markdown src/lib/posts/${params.slug}.md`);
 
 		if (post) {
 			return {
