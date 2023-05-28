@@ -10,6 +10,5 @@
 <div class="container">
   <Header />
 	<h1>{data.title}</h1>
-	<h2>{data.date}</h2>
 	<p>{data.body}</p>
 </div>
