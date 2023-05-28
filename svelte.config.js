@@ -22,6 +22,11 @@ const config = {
             // if `edge` is true, this option cannot be used
             split: false
         })
+        vite: {
+          optimizeDeps: {
+            include: ['src/lib/posts/**']
+      }
+    }
 	}
 };
 
