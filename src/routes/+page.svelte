@@ -1,35 +1,15 @@
-<script context="module">
-  import Header from '$lib/components/Header.svelte'
-  import fs from 'fs';
-  import path from 'path';
-  import grayMatter from 'gray-matter';
+<script lang="ts">
+  import Header from '$lib/components/Header.svelte';
+  import Post from '$lib/components/Post.svelte';
 
-  export async function load() {
-    const postsDirectory = path.join(process.cwd(), 'src/lib/exhibitions');
-    const filenames = fs.readdirSync(postsDirectory);
-    const posts = filenames.map((filename) => {
-      const filePath = path.join(postsDirectory, filename);
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      const { data } = grayMatter(fileContents);
-
-      return {
-        title: data.title,
-        date: data.date,
-      };
-    });
-
-    return {
-      props: {
-        posts,
-      },
-    };
-  }
-
-  let posts = load()
-
-
+	import type { PageData } from './$types';
+  
+  export let data: PageData;
 </script>
 
-
+<div class="container">
   <Header />
-<slot></slot>
+  {#each data.body as item}
+    <Post {item} />
+  {/each}
+</div>
