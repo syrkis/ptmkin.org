@@ -1,8 +1,5 @@
-<script context="module">
+<script lang="ts" context="module">
   export const prerender = true;
-</script>
-
-<script lang="ts">
 	import Header from '$lib/components/Header.svelte'
 
 	import type { PageData } from './$types';
