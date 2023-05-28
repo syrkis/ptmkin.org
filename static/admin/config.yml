@@ -1,17 +1,19 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: "static/images" # Media files will be stored in the repo under images/uploads
-public_folder: "/images"
+  branch: main
+  repo: syrkis/ptmkin.org
+  site_domain: ptmkin.org
+
+media_folder: static/images
+public_folder: /images
+
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Exhibitions" # Used in the UI
+  - name: "posts"
+    label: "Exhibitions"
     folder: "src/lib/posts"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
