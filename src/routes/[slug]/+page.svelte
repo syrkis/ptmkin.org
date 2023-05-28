@@ -9,6 +9,7 @@
 
 <div class="container">
   <Header />
-  <slot></slot>
 	<h1>{data.title}</h1>
+	<h2>{data.date}</h2>
+	<p>{data.body}</p>
 </div>
