@@ -14,7 +14,6 @@ export const load: PageServerLoad = async ({ params }) => {
 			return {
 				title: post.attributes.title,
 				body: post.body,
-				date: post.attributes.date,
 			};
 		}
 		throw error(500, 'something wrong with the markdown file');
