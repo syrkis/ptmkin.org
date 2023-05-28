@@ -12,7 +12,6 @@ export const load: PageServerLoad = async ({ params }) => {
 
 		if (post) {
 			return {
-				slug: params.slug,
 				title: post.attributes.title,
 				body: post.body,
 				date: post.attributes.date,

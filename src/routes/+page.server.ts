@@ -11,7 +11,6 @@ export const load: PageServerLoad = async () => {
             const post = fm<Post>(fs.readFileSync(`src/lib/posts/${file}`, "utf-8"));
             return {
                 slug: file.replace(".md", ""),
-                name: file,
                 title: post.attributes.title,
                 body: post.body,
                 date: post.attributes.date,
