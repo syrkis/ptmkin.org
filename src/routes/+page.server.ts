@@ -7,8 +7,7 @@ import type { Post } from "$lib/types";
 
 
 export const load: PageServerLoad = async () => {
-        const files = fs.readdirSync("src/lib/posts/");
-        const posts = files.map((file) => {
+        const posts = fs.readdirSync("src/lib/posts").map((file) => {
             const post = fm<Post>(fs.readFileSync(`src/lib/posts/${file}`, "utf-8"));
             return {
                 slug: file.replace(".md", ""),
