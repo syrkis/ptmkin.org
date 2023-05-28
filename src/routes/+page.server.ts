@@ -4,8 +4,6 @@ import fs from "fs";
 import fm from "front-matter";
 import type { Post } from "$lib/types";
 
-
-
 export const load: PageServerLoad = async () => {
         const posts = fs.readdirSync("src/lib/posts").map((file) => {
             const post = fm<Post>(fs.readFileSync(`src/lib/posts/${file}`, "utf-8"));
