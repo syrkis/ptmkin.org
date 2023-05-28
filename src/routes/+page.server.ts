@@ -5,8 +5,8 @@ import fm from "front-matter";
 import type { Post } from "$lib/types";
 
 export const load: PageServerLoad = async () => {
-        const posts = fs.readdirSync("src/lib/posts").map((file) => {
-            const post = fm<Post>(fs.readFileSync(`src/lib/posts/${file}`, "utf-8"));
+        const posts = fs.readdirSync("static/posts").map((file) => {
+            const post = fm<Post>(fs.readFileSync(`static/posts/${file}`, "utf-8"));
             return {
                 slug: file.replace(".md", ""),
                 title: post.attributes.title,
