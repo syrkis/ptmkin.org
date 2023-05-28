@@ -22,7 +22,7 @@
 <style>
   .posts {
     padding-top: 10rem;
-    width: 900px;
+    width: 1100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
