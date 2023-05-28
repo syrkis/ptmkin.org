@@ -1,10 +1,9 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte'
 
-	import type { PageData } from '../[slug]/$types';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
-
 </script>
 
 <div class="container">

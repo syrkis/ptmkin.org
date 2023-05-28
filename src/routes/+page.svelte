@@ -1,12 +1,14 @@
-<script context="module">
-  import Header from '$lib/components/Header.svelte'
-</script>
-
 <script lang="ts">
-</script>
+  import Header from '$lib/components/Header.svelte';
 
+	import type { PageData } from './$types';
+  
+  export let data: PageData;
+</script>
 
 <div class="container">
   <Header />
-  <h1>Posts</h1>
+  {#each data.body as item}
+    <p>{item.name}</p>
+  {/each}
 </div>
