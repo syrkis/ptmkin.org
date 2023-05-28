@@ -11,3 +11,14 @@
         <p>{item.body}</p>
     </a>
 </div>
+
+<style>
+    .post {
+        margin: 2rem 0;
+    }
+
+    .post a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
