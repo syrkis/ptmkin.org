@@ -24,6 +24,6 @@ export const load: PageServerLoad = async () => {
         };
         throw error(404, "not found");
     } catch {
-        throw error(500, "something wrong with the markdown file");
+        throw error(500, "something wrong with the markdown files");
     }
 };
