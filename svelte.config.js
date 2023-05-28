@@ -13,10 +13,6 @@ const config = {
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
     prerender: {
-      entries: [
-        '/:slug' // Include the dynamic route for blog posts
-      ]
-    },
         adapter: adapter({
             // if true, will create a Netlify Edge Function rather
             // than using standard Node-based functions
