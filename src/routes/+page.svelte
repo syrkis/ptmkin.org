@@ -8,12 +8,8 @@
 
 	import type { PageData } from './$types';
   
-  export let data: PageData;
 </script>
 
 <div class="container">
-  <Header />
-  {#each data.body as item}
-    <Post {item} />
-  {/each}
+  test
 </div>
