@@ -10,7 +10,7 @@ public_folder: /images
 collections:
   - name: "posts"
     label: "Exhibitions"
-    folder: "static/posts"
+    folder: "src/lib/posts"
     create: true
     slug: "{{slug}}"
     fields:
