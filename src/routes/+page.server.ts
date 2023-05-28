@@ -7,8 +7,7 @@ import type { Post } from "$lib/types";
 
 
 export const load: PageServerLoad = async () => {
-    try {
-        const files = fs.readdirSync("src/lib/posts");
+        const files = fs.readdirSync("src/lib/posts/");
         const posts = files.map((file) => {
             const post = fm<Post>(fs.readFileSync(`src/lib/posts/${file}`, "utf-8"));
             return {
@@ -22,8 +21,4 @@ export const load: PageServerLoad = async () => {
         return {
             body: posts,
         };
-        throw error(404, "not found");
-    } catch {
-        throw error(500, "something wrong with the markdown files");
-    }
 };
