@@ -6,7 +6,7 @@ import type { Post } from '$lib/types';
 
 export const load: PageServerLoad = async ({ params }) => {
 	try {
-		const post = fm<Post>(fs.readFileSync(`src/lib/posts/${params.slug}.md`, 'utf-8'));
+		const post = fm<Post>(fs.readFileSync(`$lib/posts/${params.slug}.md`, 'utf-8'));
 
 		console.log(`[info] processing markdown src/lib/${params.slug}.md`);
 
