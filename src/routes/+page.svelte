@@ -1,6 +1,6 @@
 <script lang="ts">
   import Header from '$lib/components/Header.svelte';
-  import Post from '$lib/components/Post.svelte';
+  import Tile from '$lib/components/Tile.svelte';
 
 	import type { PageData } from './$types';
   
@@ -8,11 +8,10 @@
 </script>
 
 <div class="container">
-  <Header />
   <div class='posts'>
     {#each data.body as item}
       <div class='post'>
-        <Post {item} />
+        <Tile {item} />
       </div>
     {/each}
   </div>
@@ -20,9 +19,14 @@
 
 
 <style>
+  .container {
+    text-align: justify;
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+  }
   .posts {
     padding-top: 10rem;
-    width: 1100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;

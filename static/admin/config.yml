@@ -8,12 +8,20 @@ media_folder: static/images
 public_folder: /images
 
 collections:
-  - name: "posts"
+  - name: "exhibitions"
     label: "Exhibitions"
-    folder: "src/lib/posts"
+    folder: "src/lib/posts/exhibitions"
     create: true
     slug: "{{slug}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "artist", label: "Artist", widget: "string" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "start", label: "Date", widget: "datetime" }
+      - { name: "end", label: "End Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "thumbnail", label: "Thumbnail", widget: "image" }
+      - { name: "images", label: "Images", widget: "list", fields: [
+          { label: "Image", name: "image", widget: "image" },
+          { label: "Caption", name: "caption", widget: "string" }
+        ], required: false }

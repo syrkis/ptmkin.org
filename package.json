@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"front-matter": "^4.0.2",
-		"gray-matter": "^4.0.3"
+		"gray-matter": "^4.0.3",
+		"svelte-markdown": "^0.2.3"
 	}
 }

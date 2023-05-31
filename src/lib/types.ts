@@ -1,6 +1,9 @@
-export interface Post {
+export interface Exhibition {
 	  title: string;
-	  date: string;
+	  artist: string;
+	  description: string;
+	  start: string;
+	  end: string;
 	  body: string;
-	  slug: string;
+	  thumbnail: string;
 }

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte'
+	import Post from '$lib/components/Post.svelte'
 
 	import type { PageData } from './$types';
 
@@ -8,6 +9,5 @@
 
 <div class="container">
   <Header />
-	<h1>{data.title}</h1>
-	<p>{data.body}</p>
+  <Post {data} />
 </div>
