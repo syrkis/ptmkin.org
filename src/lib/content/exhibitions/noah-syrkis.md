@@ -1,13 +1,12 @@
 ---
 layout: exhibitions
-title: Fister Fuck Fjæs
-author: Fister Fuck Fjæs
+title: Noah Syrkis
+author: Noah Syrkis
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   maximus aliquet metus, sed fermentum urna vestibulum ut. Nulla facilisi.
   Praesent euismod, nisl vel aliquam ultrices, nunc
 start: 2023-05-27T11:10:42.984Z
-thumbnail: /images/343584883_237799075608174_658295505068930556_n.png
-rating: 1
+image: /images/a6.jpg
 ---
 For the museum’s inaugural exhibition, and her first institutional solo, Feline Curér has created an extensive floor installation work that spans the entire first and second floors of the museum. Using procedural generation techniques and cutting edge manufacturing processes, Curér has littered the galleries with thousands of clay, porcelain and polymer pieces of variable shape and size. 
 

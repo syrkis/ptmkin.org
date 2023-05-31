@@ -4,7 +4,7 @@ import fm from 'front-matter';
 import path from 'path';
 import type { Exhibition } from '$lib/types';
 
-const postsDir = path.join(process.cwd(), 'src', 'lib', 'posts', 'exhibitions');
+const postsDir = path.join(process.cwd(), 'src', 'lib', 'content', 'exhibitions');
 
 export const load: PageServerLoad = async ({ params }) => {
   const post = fm<Exhibition>(fs.readFileSync(path.join(postsDir, `${params.slug}.md`), 'utf-8'));
@@ -18,6 +18,6 @@ export const load: PageServerLoad = async ({ params }) => {
     start: post.attributes.start,
     end: post.attributes.end,
     body: post.body,
-    thumbnail: post.attributes.thumbnail,
+    image: post.attributes.image,
   };
 };

@@ -5,5 +5,5 @@ export interface Exhibition {
 	  start: string;
 	  end: string;
 	  body: string;
-	  thumbnail: string;
+	  image: string;
 }

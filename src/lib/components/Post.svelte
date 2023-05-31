@@ -11,12 +11,13 @@
 <div class="container">
     <div class="title">
         <h1>{data.title}</h1>
-        <h2>{data.date}, {data.author}</h2>
+        <h2>{data.date}, {data.artist}</h2>
     </div>
     <SvelteMarkdown source={data.body} />
 </div>
 
 <style>
+    h1 { font-family: sans-serif;}
     h1, h2 {
         text-align: center;
         margin-bottom: 0;
