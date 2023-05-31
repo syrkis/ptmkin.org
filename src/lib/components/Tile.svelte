@@ -6,7 +6,7 @@
 
     /* month, day and year*/ 
     let start = new Date(item.start);
-    start = start.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    start = start.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
 
     let end = new Date(item.end);
     end = end.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -18,7 +18,7 @@
     <a href="/{item.slug}">
         <img src={item.image} alt={item.title} />
         <h1>{item.title}</h1>
-        <span>{start} — {start}</span>
+        <span>{start} — {end}</span>
         <SvelteMarkdown source={item.description} />
     </a>
 </div>

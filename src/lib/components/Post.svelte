@@ -23,6 +23,8 @@
         margin-bottom: 0;
     }
     .container {
+        border: 50px solid white;
+        background: white;
         text-align: justify;
         width:95%;
         max-width: 700px;
