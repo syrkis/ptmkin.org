@@ -8,9 +8,9 @@ media_folder: static/images
 public_folder: /images
 
 collections:
-  - name: "exhibitions"
+  - name: "exhibition"
     label: "Exhibition"
-    folder: "src/lib/content/exhibitions"
+    folder: "src/lib/content/exhibition"
     create: true
     slug: "{{slug}}"
     fields:
