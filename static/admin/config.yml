@@ -21,7 +21,6 @@ collections:
       - { name: "end", label: "End Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
       - { name: "image", label: "Image", widget: "image" }
-
     - name: "articles"
       label: "Article"
       folder: "src/lib/content/articles"
