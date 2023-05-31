@@ -22,11 +22,10 @@
   .container {
     text-align: justify;
     width: 95%;
-    max-width: 1100px;
+    max-width: 900px;
     margin: auto;
   }
   .posts {
-    padding-top: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;

@@ -7,7 +7,6 @@
 	export let data: PageData;
 </script>
 
-<div class="container">
-  <Header />
+<div>
   <Post {data} />
 </div>

@@ -5,7 +5,7 @@ author: Fister Fuck Fjæs
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
   maximus aliquet metus, sed fermentum urna vestibulum ut. Nulla facilisi.
   Praesent euismod, nisl vel aliquam ultrices, nunc
-date: 2023-05-27T11:10:42.984Z
+start: 2023-05-27T11:10:42.984Z
 thumbnail: /images/343584883_237799075608174_658295505068930556_n.png
 rating: 1
 ---

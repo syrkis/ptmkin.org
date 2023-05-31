@@ -3,12 +3,18 @@
 </script>
 
 
-<div class="container">
+<div>
   <Header />
-  <slot></slot>
+  <div class="content">
+    <slot></slot>
+  </div>
 </div>
 
 <style>
+  .content {
+    padding: 20rem 0;
+  }
+
     :global(body) {
         margin: 0;
         padding: 0;

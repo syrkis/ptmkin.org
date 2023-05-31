@@ -5,7 +5,7 @@
 
 
     /* month, day and year*/ 
-    let date = new Date(item.date);
+    let date = new Date(item.start);
     date = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
 </script>
@@ -21,7 +21,7 @@
 
 <style>
     .post {
-        margin: 2rem 0;
+        margin: 10px;
     }
 
     .post a {
