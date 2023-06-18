@@ -24,7 +24,7 @@ Working with biomimicry, procedural
 generation techniques and cutting edge manufacturing processes, Curér has littered the galleries with thousands of clay, porcelain and polymer pieces of variable shape and size.
 Walking through the galleries, there’s something unnerving about being surrounded by such ceaseless variation of form. It feels as if one is moving amongst the discarded scraps of a creation-work, and it is among this refuse that Curér performs her flourish; a sort of fanning out of materialities.
 
-![FCdoc1](/images/room 1 slightitilt.jpg "FCdoc1")
+![FCdoc1](/images/rooom1.jpg "FCdoc1")
 
 ![FCdoc2](/images/closeup3.jpg "FCdoc2")
 
