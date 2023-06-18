@@ -18,24 +18,14 @@ Walking through the galleries, there’s something unnerving about being surroun
 
 ![Feline Curér installation documentation 1](/images/room 1 slightitilt.jpg "Feline Curér installation documentation 1")
 
-
-
-
+t﻿est
 
 ![Feline Curér installation documentation 2](/images/closeup3.jpg "Feline Curér installation documentation 2")
-
-
-
-
 
 And herein resides a central disaffectation, Curér’s work seems aesthetically disenchanted. There’s a kind of indolence here– in creating work of such material magnitude and impermanence.
 
 A bored god: “Here are all possible forms laid out before me, and so what?” Further exacerbated by the apparent joylessness of these artifacts, their muted colors, their shapelessness only verging towards any kind of specificity.
 Perhaps this attitude in itself is analogous to the carelessness with which nature churns out sentient beings. The gesture of producing such resource intensive artworks in a time of global material crises is fraught. Her work neither presents as a celebration of natural exuberance, nor is there much eco-activism to be traced here.
-
-
-
-
 
 Void of any such overt ideological or social engagement the exhibition space eventuates as a null field.
 We wander among the cast off vestiges of a cosmogony, or perhaps an eschatology - a world that has run its course.
