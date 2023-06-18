@@ -11,7 +11,7 @@ collections:
 
   - name: "posts"
     label: "Posts"
-    folder: "src/lib/content/posts"
+    folder: "src/lib/posts"
     create: true
     slug: "{{slug}}"
     fields:
