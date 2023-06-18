@@ -9,6 +9,8 @@ start: 2023-06-08T11:10:42.984Z
 end: 2023-10-01T11:10:42.984Z
 cover: /images/Room_2_done-transformed.jpeg
 ---
+![]()
+
 For the institute’s inaugural exhibition,
 Feline Curér has created an extensive floor
 installation that spans the entire first and second floors of the galleries.
