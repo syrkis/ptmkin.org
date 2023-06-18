@@ -12,7 +12,7 @@
 
 <style>
   .content {
-    padding: 11rem 0;
+    padding: 18rem 0;
   }
 
     :global(body) {

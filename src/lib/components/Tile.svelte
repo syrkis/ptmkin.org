@@ -16,7 +16,7 @@
 
 <div class="post">
     <a href="/{item.slug}">
-        <img src={item.image} alt={item.title} />
+        <img src={item.cover} alt={item.title} />
         <h1>{item.title}</h1>
         <span>{start} — {end}</span>
         <SvelteMarkdown source={item.description} />

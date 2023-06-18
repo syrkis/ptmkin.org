@@ -2,7 +2,7 @@
   <div class="logo">
     <h1>
       <a href="/">
-        Potemkin<br/>Contemporary
+        Potemkin<br/>Project
       </a>  
     </h1>
   </div>

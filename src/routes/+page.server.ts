@@ -2,15 +2,15 @@ import type { PageServerLoad } from "./$types";
 import fs from "fs";
 import fm from "front-matter";
 import path from "path";
-import type { Exhibition } from "$lib/types";
+import type { Post } from "$lib/types";
 
-const postsDir = path.join(process.cwd(), "src", "lib", "content", "exhibitions");
+const postsDir = path.join(process.cwd(), "src", "lib", "posts");
 
 export const load: PageServerLoad = async () => {
   const posts = fs
     .readdirSync(postsDir)
     .map((file) => {
-      const post = fm<Exhibition>(
+      const post = fm<Post>(
         fs.readFileSync(path.join(postsDir, file), "utf-8")
       );
       return {
@@ -21,7 +21,8 @@ export const load: PageServerLoad = async () => {
         artist: post.attributes.artist,
         start: post.attributes.start,
         end: post.attributes.end,
-        image: post.attributes.image,
+        images: post.attributes.images,
+        cover: post.attributes.cover,
       };
     })
 

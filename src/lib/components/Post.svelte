@@ -11,7 +11,6 @@
 <div class="container">
     <div class="title">
         <h1>{data.title}</h1>
-        <h2>{data.date}, {data.artist}</h2>
     </div>
     <SvelteMarkdown source={data.body} />
 </div>
@@ -30,4 +29,10 @@
         max-width: 700px;
         margin: auto;
     }
+
+    :global(img) {
+        max-width: 100%;
+        height: auto;
+    }
+
 </style>
