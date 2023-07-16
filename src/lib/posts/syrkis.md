@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Feline Curér
-artist: Feline Curér
+title: Syrkis
+artist: Syrkis
 description: For the institute’s inaugural exhibition, Feline Curér has created
   an extensive floor installation that spans the entire first and second floors
   of the galleries.
 start: 2023-06-08T11:10:42.984Z
 end: 2023-10-01T11:10:42.984Z
-cover: /images/Room_2_done-transformed.jpeg
+cover: /images/003.jpg
 ---
 ![](/images/Room_2_done-transformed.jpeg)
-
 
 For the institute’s inaugural exhibition,
 Feline Curér has created an extensive floor
