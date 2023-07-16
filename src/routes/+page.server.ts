@@ -24,7 +24,7 @@ export const load: PageServerLoad = async () => {
         images: post.attributes.images,
         cover: post.attributes.cover,
       };
-    })
+    }).sort((a, b) => new Date(b.start).getTime() - new Date(a.start).getTime());
 
   return {
     body: posts,

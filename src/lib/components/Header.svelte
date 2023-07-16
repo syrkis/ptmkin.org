@@ -1,16 +1,23 @@
 <script>
-  let links = [
+  let left = [
     {name: 'Home', url: '/'},
     {name: 'About', url: '/about'},
     {name: 'Artists', url: '/artists'},
     {name: 'Exhibitions', url: '/exhibitions'},
     {name: 'Contact', url: '/contact'}
   ];
+
+  let right = [
+    {name: 'Instagram', url: 'https://www.instagram.com/ptmkin'},
+    {name: 'Facebook', url: 'https://www.facebook.com/ptmkin'},
+    {name: 'Twitter', url: 'https://twitter.com/ptmkin'},
+    {name: 'Youtube', url: 'https://www.youtube.com/@ptmkin'},
+  ];
 </script>
 
 <div class='sideBar leftBar'>
   <ul>
-    {#each links as link}
+    {#each left as link}
       <li><a href="{link.url}">{link.name}</a></li>
     {/each}
   </ul>
@@ -18,7 +25,7 @@
 
 <div class='sideBar rightBar'>
   <ul>
-    {#each links as link}
+    {#each right as link}
       <li><a href="{link.url}">{link.name}</a></li>
     {/each}
   </ul>

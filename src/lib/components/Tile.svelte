@@ -2,7 +2,18 @@
     import type { Post } from '$lib/types';
     export let item: Post; 
     import SvelteMarkdown from 'svelte-markdown';
+    import { onMount } from "svelte";
+    import VanillaTilt from "vanilla-tilt";
 
+    /* add tilt effect to post */
+    onMount(() => {
+        VanillaTilt.init(document.querySelectorAll(".post"), {
+            max: 0.0001,
+            speed: 7000,
+            reverse: true,
+            scale: 1.004
+        });
+    });
 
     /* month, day and year*/ 
     let start = new Date(item.start);

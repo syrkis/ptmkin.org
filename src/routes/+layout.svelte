@@ -1,5 +1,6 @@
 <script>
   import Header from '$lib/components/Header.svelte';
+  let year = new Date().getFullYear();
 </script>
 
 <div>
@@ -7,9 +8,19 @@
   <div class="content">
     <slot></slot>
   </div>
+  <!--copyright-->
+  <div class="footer content">
+    <p>
+      © {year} Potemkin Contemporary
+    </p>
+  </div>
 </div>
 
 <style>
+
+  .footer {
+    padding: 10rem 0 1rem 0;
+  }
   .content {
     display: flex;
     justify-content: center;

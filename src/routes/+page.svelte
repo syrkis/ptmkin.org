@@ -5,6 +5,13 @@
   import type { PageData } from './$types';
   
   export let data: PageData;
+  let pastExhibitions = data.body.filter((item) => {
+    return new Date(item.end) < new Date();
+  });
+
+  let notPastExhibitions = data.body.filter((item) => {
+    return new Date(item.end) > new Date();
+  });
 </script>
 
 <div class="container">
@@ -13,17 +20,54 @@
       Potemkin<br/>Contemporary
     </h1>
   </div>
+  <div class='exhibitions'>
+
   <div class='posts'>
-    {#each data.body as item}
+    {#each notPastExhibitions as item}
       <div class='post'>
         <Tile {item} />
       </div>
     {/each}
   </div>
+  <div class='divider'>
+    <hr/>
+  </div>
+  <h2>
+    Past Exhibitions
+  </h2>
+  <div class='posts'>
+    {#each pastExhibitions as item}
+      <div class='post'>
+        <Tile {item} />
+      </div>
+    {/each}
+      </div>
+  </div>
 </div>
 
 
 <style>
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 100px;
+    font-size: 1.4rem;
+}
+
+:global(hr) {
+        width: 100%;
+        margin: 0 auto;
+        border: 0.5px solid black;
+    }
+
+    :global(.divider) {
+        width: 200px;
+        margin: auto;
+        padding: 100px 0 0 0;
+        text-align: center;
+        padding-bottom: 80px;
+    }
   .logo-container {
     position: absolute;
     display: flex;
@@ -33,7 +77,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: -1;
   }
   
   .logo {
@@ -52,10 +96,16 @@
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
-    margin-top: 92vh;
     justify-items: center;
     z-index: 2;
     position: relative;
+  }
+
+  .exhibitions {
+    position: relative;
+    z-index: 2;
+    margin-top: 92vh;
+    
   }
 
   @media (max-width: 700px) {

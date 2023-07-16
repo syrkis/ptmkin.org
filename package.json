@@ -22,6 +22,7 @@
 	"dependencies": {
 		"front-matter": "^4.0.2",
 		"gray-matter": "^4.0.3",
-		"svelte-markdown": "^0.2.3"
+		"svelte-markdown": "^0.2.3",
+		"vanilla-tilt": "^1.8.0"
 	}
 }
