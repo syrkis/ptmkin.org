@@ -3,30 +3,38 @@
 
     export let data;
 
-    let date = new Date(data.start);
-    data.date = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    let start = new Date(data.start).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    let end = new Date(data.end).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 </script>
 
 
 <div class="container">
-    <div class="title">
+    <div class="title-date">
         <h1>{data.title}</h1>
+        <span>{start} — {end}</span>
     </div>
     <SvelteMarkdown source={data.body} />
 </div>
 
 <style>
-    h1 { font-family: sans-serif;}
-    h1, h2 {
+    .title-date {
+        text-align: center;
+        line-height: 3rem;
+        margin: 10rem 0;
+    }
+
+    h1 {
+        font-family: sans-serif;
         text-align: center;
         margin-bottom: 0;
     }
+
     .container {
         border: 50px solid white;
         background: white;
         text-align: justify;
-        width:95%;
-        max-width: 700px;
+        max-width: 800px;
+        width:90%;
         margin: auto;
     }
 
@@ -35,4 +43,14 @@
         height: auto;
     }
 
+    @media (max-width: 600px) {
+        .title-date {
+            line-height: 2rem;
+            margin: 5rem 0;
+        }
+        .container {
+            border: 25px solid white;
+            max-width: 95%;
+        }
+    }
 </style>

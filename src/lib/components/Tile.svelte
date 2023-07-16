@@ -17,8 +17,10 @@
 <div class="post">
     <a href="/{item.slug}">
         <img src={item.cover} alt={item.title} />
-        <h1>{item.title}</h1>
-        <span>{start} — {end}</span>
+        <div class="title-date">
+            <h1>{item.title}</h1>
+            <span>{start} — {end}</span>
+        </div>
         <SvelteMarkdown source={item.description} />
     </a>
 </div>
@@ -39,5 +41,11 @@
     .post a {
         text-decoration: none;
         color: inherit;
+    }
+
+    .title-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 </style>
