@@ -43,7 +43,22 @@ li {
   /* add space between li and ul */
   padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+  ul {
+    line-height: 0.5em;
+  }
+
+  li {
+    /* keep li on smae lines */
+    /* add space between li */
+    margin: 0;
+    /* add space between li and ul */
+    padding: 1rem 0;
+  }
+}
 .sideBar {
+  line-height: 1em;
   writing-mode: vertical-lr;
   text-transform: uppercase;
   text-align: center;

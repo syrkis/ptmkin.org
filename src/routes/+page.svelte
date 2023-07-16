@@ -48,10 +48,10 @@
 
   .posts {
     display: grid;
-    width: 90%;
+    width: 95%;
     margin: auto;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 5rem;
     margin-top: 92vh;
     justify-items: center;
     z-index: 2;

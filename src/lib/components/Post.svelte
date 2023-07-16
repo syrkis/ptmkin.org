@@ -30,11 +30,10 @@
     }
 
     .container {
-        border: 50px solid white;
         background: white;
         text-align: justify;
         max-width: 800px;
-        width:90%;
+        width:95%;
         margin: auto;
     }
 
@@ -49,8 +48,7 @@
             margin: 5rem 0;
         }
         .container {
-            border: 25px solid white;
-            max-width: 95%;
+            width: 95%;
         }
     }
 </style>
