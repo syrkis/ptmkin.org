@@ -23,28 +23,14 @@
   <div class='exhibitions'>
 
   <div class='posts'>
-    {#each notPastExhibitions as item}
+    {#each data.body as item}
       <div class='post'>
         <Tile {item} />
       </div>
     {/each}
-  </div>
-  <div class='divider'>
-    <hr/>
-  </div>
-  <h2>
-    Past Exhibitions
-  </h2>
-  <div class='posts'>
-    {#each pastExhibitions as item}
-      <div class='post'>
-        <Tile {item} />
-      </div>
-    {/each}
-      </div>
   </div>
 </div>
-
+</div>
 
 <style>
 
@@ -92,7 +78,7 @@ h2 {
 
   .posts {
     display: grid;
-    width: 95%;
+    width: 100%;
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
@@ -111,7 +97,10 @@ h2 {
   @media (max-width: 700px) {
     .posts {
       grid-template-columns: 1fr;
-      width: 80%;
+      width: 95%;
+    }
+    .logo {
+      font-size: 2.5rem;
     }
   }
 </style>

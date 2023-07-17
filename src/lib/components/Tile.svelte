@@ -38,7 +38,7 @@
 
 <style>
 
-    h1 { font-family: sans-serif;}
+    h1 { font-family: sans-serif; }
 
     img {
         width: 100%;
@@ -58,5 +58,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        .title-date {
+            display: block;
+            text-align: center;
+        }
     }
 </style>

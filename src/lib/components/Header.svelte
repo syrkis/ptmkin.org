@@ -99,4 +99,40 @@ a {
   padding: 0 100px; /* Adjust according to your needs */
   box-sizing: border-box;
 }
+
+
+@media (max-width: 700px) {
+  .sideBar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: rotate(0deg);
+    writing-mode: horizontal-tb;
+  }
+
+  .leftBar, .rightBar {
+    float: none;
+  }
+
+  .content {
+    width: 100%; /* Adjust according to your needs */
+    padding: 0 15px; /* Adjust according to your needs */
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+
+  li {
+    /* keep li on same lines */
+    display: block;
+    /* add space between li */
+    margin: 0.5rem;
+    /* add space between li and ul */
+    padding: 0.5rem 0;
+  }
+}
 </style>
