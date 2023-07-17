@@ -7,26 +7,27 @@ description: For the institute’s inaugural exhibition, Feline Curér has creat
   of the galleries.
 start: 2023-06-08T11:10:42.984Z
 end: 2023-10-01T11:10:42.984Z
-cover: /images/002.jpg
+cover: /images/purpose_In_a_david_zwirner_kunsthalle_without_any_people_in_it_3c46ae5d-874d-4a5a-a5b0-ee6daa3c33d8-transformed.jpg
 ---
-![](/images/Room_2_done-transformed.jpeg)
+![](/images/purpose_In_a_david_zwirner_kunsthalle_without_any_people_in_it_3c46ae5d-874d-4a5a-a5b0-ee6daa3c33d8-transformed.jpg)
 
-For the institute’s inaugural exhibition,
-Feline Curér has created an extensive floor
-installation that spans the entire first and second floors of the galleries.
-Working with biomimicry, procedural
-generation techniques and cutting edge manufacturing processes, Curér has littered the galleries with thousands of clay, porcelain and polymer pieces of variable shape and size.
-Walking through the galleries, there’s something unnerving about being surrounded by such ceaseless variation of form. It feels as if one is moving amongst the discarded scraps of a creation-work, and it is among this refuse that Curér performs her flourish; a sort of fanning out of materialities.
+Parsani collective consists of a multiplicitous rhizome of artists, restoration workers, historians, archaeologists, designers and engineers working with, and through middle eastern diasporic narratives. In this exhibition, four years in the making, Parsani collective performs a series of elisions between scopes and scales of lived and material history.
 
-![FCdoc1](/images/rooom1.jpg "FCdoc1")
+![](/images/purpose___None_2be52bc7-d2c1-4764-9d43-8e64a69af0df.png)
 
-![FCdoc2](/images/closeup3.jpg "FCdoc2")
+In 2019, Parsani collective set up BAYT as a women’s shelter, exhibition space, and locus of activism. Here students from fashion academies across europe were invited for a series of residencies where they worked together with displaced women. Working under the auspices of the Parsani collective, this became a site of exchange of knowledge and of reciprocal learning between the students and the residents of the home. 
 
-And herein resides a central disaffectation, Curér’s work seems aesthetically disenchanted. There’s a kind of indolence here– in creating work of such material magnitude and impermanence.
+![](/images/purpose_In_a_david_zwirner_kunsthalle_without_any_people_in_it_c1fe2a15-8ba9-4c4f-9186-b40da4c307d6.png)
 
-A bored god: “Here are all possible forms laid out before me, and so what?” Further exacerbated by the apparent joylessness of these artifacts, their muted colors, their shapelessness only verging towards any kind of specificity.
-Perhaps this attitude in itself is analogous to the carelessness with which nature churns out sentient beings. The gesture of producing such resource intensive artworks in a time of global material crises is fraught. Her work neither presents as a celebration of natural exuberance, nor is there much eco-activism to be traced here.
+The collective sourced rugs, often in fragments or states of disrepair.  Advanced scanning and topological analysis techniques were employed to generate 3d animated tutorial videos of the exact spatial operations required to assemble the carpet, experimenting with different approaches, the attendants managed to perform the operations of creation in reverse, disentangling, atomizing the carpet into its most basic unit - the thread. The threads are then categorized according to age, colour and site of manufacture. Building up this massive carthoteque of threads from across western asia, the collective uses various procedural and generative digital tools in a speculative imagework creating new textile vernaculars by breeding together motifs from different carpets. Threads extricated from different carpets, but manufactured and dyed at the same centers of textile production were then recombined in new works - positing a kind quantum entanglement enacted along lines of exchange. 
 
-Void of any such overt ideological or social engagement the exhibition space eventuates as a null field.
-We wander among the cast off vestiges of a cosmogony, or perhaps an eschatology - a world that has run its course.
-It is in this somber state, between unity and separation, chaos and order, growth and decay, that the exhibition’s genius operates; a fecund liminal zone where the boundaries between synthetic and natural blur, it is in this soft vacillatory spasm that Curér arrays before our very eyes the sheer plenitude of potential form.
+![](/images/purpose_persian_carpet_fragment_torn_tattered_on_floor_In_a_whi_5eed9dd0-802b-4c9b-8a55-bab924d646f0.png)
+
+This insistence on the meaning carrying potential of the individual thread - as ganglia of memory, stands as clear analogy for a humanist position. 
+
+What then becomes of this gesture of disentangling the monadic threads that together corporate a whole, that effects an integrated ground for imagemaking along complex spatial operations? 
+
+What paralleities and disjunctions arise between the movements, the (dis)en-tanglings of persons, peoples, materials and objects?
+
+
+
