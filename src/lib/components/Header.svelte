@@ -3,15 +3,14 @@
     {name: 'Home', url: '/'},
     {name: 'About', url: '/about'},
     {name: 'Artists', url: '/artists'},
-    {name: 'Exhibitions', url: '/exhibitions'},
+    // {name: 'Exhibitions', url: '/exhibitions'},
     {name: 'Contact', url: '/contact'}
   ];
 
   let right = [
-    {name: 'Instagram', url: 'https://www.instagram.com/ptmkin'},
-    {name: 'Facebook', url: 'https://www.facebook.com/ptmkin'},
-    {name: 'Twitter', url: 'https://twitter.com/ptmkin'},
-    {name: 'Youtube', url: 'https://www.youtube.com/@ptmkin'},
+    {name: 'Instagram', url: 'https://www.instagram.com/ptmk_contemporary'},
+    {name: 'Vimeo', url: 'https://www.youtube.com/channel'},
+    {name: 'Youtube', url: 'https://www.youtube.com/channel'},
   ];
 </script>
 
@@ -26,7 +25,7 @@
 <div class='sideBar rightBar'>
   <ul>
     {#each right as link}
-      <li><a href="{link.url}">{link.name}</a></li>
+      <li><a href="{link.url}" target='_blank'>{link.name}</a></li>
     {/each}
   </ul>
 </div>
@@ -112,6 +111,10 @@ a {
 
   .leftBar, .rightBar {
     float: none;
+  }
+
+  .rightBar {
+    display: none;
   }
 
   .content {

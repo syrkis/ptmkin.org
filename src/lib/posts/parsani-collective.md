@@ -2,9 +2,7 @@
 layout: post
 title: Parsani Collective
 artist: Parsani Collective
-description: For the institute’s inaugural exhibition, Feline Curér has created
-  an extensive floor installation that spans the entire first and second floors
-  of the galleries.
+description: Parsani collective consists of a multiplicitous rhizome of artists, restoration workers, historians, archaeologists, designers and engineers working with, and through middle eastern diasporic narratives. 
 start: 2023-06-08T11:10:42.984Z
 end: 2023-10-01T11:10:42.984Z
 cover: /images/purpose_In_a_david_zwirner_kunsthalle_without_any_people_in_it_3c46ae5d-874d-4a5a-a5b0-ee6daa3c33d8-transformed.jpg

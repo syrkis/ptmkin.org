@@ -29,7 +29,7 @@
     <a href="/{item.slug}">
         <img src={item.cover} alt={item.title} />
         <div class="title-date">
-            <h1>{item.title}</h1>
+            <h2>{item.title}</h2>
             <span>{start} — {end}</span>
         </div>
         <SvelteMarkdown source={item.description} />
@@ -37,8 +37,6 @@
 </div>
 
 <style>
-
-    h1 { font-family: sans-serif; }
 
     img {
         width: 100%;

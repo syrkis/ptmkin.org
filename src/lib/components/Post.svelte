@@ -10,7 +10,7 @@
 
 <div class="container">
     <div class="title-date">
-        <h1>{data.title}</h1>
+        <h2>{data.title}</h2>
         <span>{start} — {end}</span>
     </div>
     <SvelteMarkdown source={data.body} />

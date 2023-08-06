@@ -8,34 +8,69 @@
   <div class="content">
     <slot></slot>
   </div>
-  <!--copyright-->
-  <div class="footer content">
+  <div class="footer">
     <p>
-      © {year} Potemkin Contemporary
+      Karkkolantie 140–164, 54260 Lappeenranta, Finland – Monday to Saturday, 11:00 AM to 6:00 PM
     </p>
   </div>
 </div>
 
 <style>
-
-  .footer {
-    padding: 10rem 0 1rem 0;
-  }
-  .content {
-    display: flex;
-    justify-content: center;
-    margin-left: 10vw; /* Set a fixed margin on the left side */
-    margin-right: 10vw; /* Set a fixed margin on the right side */
-  }
-
-  :global(body) {
+:global(body) {
     margin: 0;
     padding: 0;
     letter-spacing: 0.05rem;
+    font-family: 'Crimson Pro', serif;
+}
+
+:global(h1) {
+    letter-spacing: 0.07em;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  :global(h2) {
+      font-family: sans-serif;
+      text-align: center;
   }
 
-  :global(p) {
+:global(p) {
     font-size: 1.2rem;
     line-height: 2rem;
-  }
+}
+
+:global(.text) {
+    width: 600px;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+:global(hr) {
+    width: 100%;
+    margin: 0 auto;
+    border: 0.5px solid black;
+}
+
+:global(.divider) {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    padding: 10rem 0 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 0 10vw;
+}
+
 </style>

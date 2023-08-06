@@ -5,75 +5,52 @@
   import type { PageData } from './$types';
   
   export let data: PageData;
-  let pastExhibitions = data.body.filter((item) => {
-    return new Date(item.end) < new Date();
-  });
-
-  let notPastExhibitions = data.body.filter((item) => {
-    return new Date(item.end) > new Date();
-  });
 </script>
 
 <div class="container">
-  <div class='logo-container'>
-    <h1 class='logo'>
-      Potemkin<br/>Contemporary
-    </h1>
+  <div class="logo-container">
+    <h1 class="logo">PTMK</h1>
+    <div class='divider'>
+      <hr />
+    </div>
+    <span>Potemkin contemporary</span>
   </div>
-  <div class='exhibitions'>
-
-  <div class='posts'>
-    {#each data.body as item}
-      <div class='post'>
-        <Tile {item} />
-      </div>
-    {/each}
+  <div class="exhibitions">
+    <div class="posts">
+      {#each data.body as item}
+        <div class="post">
+          <Tile {item} />
+        </div>
+      {/each}
+    </div>
   </div>
-</div>
 </div>
 
 <style>
-
-h2 {
-    text-align: center;
-    font-weight: 100;
-    margin-bottom: 100px;
-    font-size: 1.4rem;
-}
-
-:global(hr) {
-        width: 100%;
-        margin: 0 auto;
-        border: 0.5px solid black;
-    }
-
-    :global(.divider) {
-        width: 200px;
-        margin: auto;
-        padding: 100px 0 0 0;
-        text-align: center;
-        padding-bottom: 80px;
-    }
-  .logo-container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  
-  .logo {
-    font-size: 3rem;
-    text-align: center;
-  }
-
   .container {
     width: 100%;
     margin: 0 auto;
+  }
+
+  h1, .logo {
+    letter-spacing: 0.07em;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .logo-container {
+    padding-top: 42vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .exhibitions {
+    position: relative;
+    z-index: 2;
+    margin-top: 40vh;
   }
 
   .posts {
@@ -87,13 +64,6 @@ h2 {
     position: relative;
   }
 
-  .exhibitions {
-    position: relative;
-    z-index: 2;
-    margin-top: 92vh;
-    
-  }
-
   @media (max-width: 700px) {
     .posts {
       grid-template-columns: 1fr;
@@ -101,6 +71,9 @@ h2 {
     }
     .logo {
       font-size: 2.5rem;
+    }
+    .exhibitions {
+      margin-top: 30vh;
     }
   }
 </style>
