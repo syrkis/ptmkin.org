@@ -13,7 +13,7 @@
     <div class='divider'>
       <hr />
     </div>
-    <span>Potemkin contemporary</span>
+    <span>Potemkin Contemporary</span>
   </div>
   <div class="exhibitions">
     <div class="posts">
