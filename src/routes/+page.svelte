@@ -47,6 +47,12 @@
     text-align: center;
   }
 
+  @media (max-width: 700px) {
+    .logo-container {
+      padding-top: 30vh;
+    }
+  }
+
   .exhibitions {
     position: relative;
     z-index: 2;
