@@ -10,7 +10,7 @@
   </div>
   <div class="footer">
     <p>
-      Karkkolantie 140–164, 54260 Lappeenranta, Finland – Monday to Saturday, 11:00 AM to 6:00 PM
+      Karkkolantie 140, 54260 Lappeenranta, Finland – Monday to Saturday, 11:00 AM to 6:00 PM
     </p>
   </div>
 </div>
