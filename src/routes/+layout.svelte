@@ -17,8 +17,8 @@
 
 
 <svelte:head>    
-  <meta property="og:image" content="https://syrkis.ams3.digitaloceanspaces.com/files-bucket/04223B1F-7455-4F5B-8C5B-590BCCF20773.png" />    
-  <meta property="og:title" content="Cotemkin Contemporary" />    
+  <meta property="og:image" content="https://syrkis.ams3.digitaloceanspaces.com/files-bucket/04223B1F-7455-4F5B-8C5B-590BCCF20773.png" />
+  <meta property="og:title" content="Potemkin Contemporary" />
   <meta property="og:url" content="https://ptmkin.org" />
 </svelte:head>
 
