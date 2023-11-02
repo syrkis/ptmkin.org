@@ -24,6 +24,7 @@
 
 <style>
 :global(body) {
+  font-size: 1.4em;
     margin: 0;
     padding: 0;
     letter-spacing: 0.05rem;

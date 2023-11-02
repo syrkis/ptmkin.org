@@ -10,10 +10,6 @@
 <div class="container">
   <div class="logo-container">
     <h1 class="logo">PTMK</h1>
-    <div class='divider'>
-      <hr />
-    </div>
-    <span>Potemkin Contemporary</span>
   </div>
   <div class="exhibitions">
     <div class="posts">
@@ -35,7 +31,7 @@
   h1, .logo {
     letter-spacing: 0.07em;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 4em;
     text-align: center;
     margin: 0;
   }
@@ -74,9 +70,6 @@
     .posts {
       grid-template-columns: 1fr;
       width: 95%;
-    }
-    .logo {
-      font-size: 2.5rem;
     }
     .exhibitions {
       margin-top: 30vh;
