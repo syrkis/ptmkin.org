@@ -32,7 +32,7 @@
     .container {
         background: white;
         text-align: justify;
-        max-width: 800px;
+        max-width: 1024px;
         width:95%;
         margin: auto;
     }

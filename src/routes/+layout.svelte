@@ -46,8 +46,8 @@
   }
 
 :global(p) {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
 :global(.text) {
