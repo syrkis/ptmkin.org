@@ -19,11 +19,6 @@
         </a>
     </div>
     <div class='sponsor'>
-            <a href='https://sacklertrust.org/' target='_blank'>
-                <img src='/images/sackler.jpg' alt='Sackler Trust' />
-            </a>
-    </div>
-    <div class='sponsor'>
         <a href='https://google.com' target='_blank'>
             <img src='/images/google.png' alt='Google' />
     </div>
@@ -50,7 +45,7 @@
         width: 600px;
         max-width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 4rem;
     }
   .container {
