@@ -8,8 +8,8 @@
       </div>
 <div class="text">
     <p>
-        Potemkin contemporary is an independent, non profit organization, striving to platform contemporary art primarily through large solo exhibitions of mid career artists. The PTMK grant is awarded twice a year to an artist showing particular promise with the goal of producing an exhibition over the next three years to be displayed in the museum. 
-        The Potemkin contemporary is made possible thanks to the generous funding from our donors:
+        Ptmkin contemporary is an independent, non profit organization, striving to platform contemporary art primarily through large solo exhibitions of mid career artists. The PTMK grant is awarded twice a year to an artist showing particular promise with the goal of producing an exhibition over the next three years to be displayed in the museum. 
+        The Ptmkin contemporary is made possible thanks to the generous funding from our donors:
     </p>
 </div>
 <div id='sponsors'>

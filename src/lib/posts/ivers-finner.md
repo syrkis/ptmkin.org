@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Ivers Finner
+title: LLMI16
 artist: Ivers Finner
-description:  Ivers Finner (b.1982) is an Estonia based artist, writer, game developer, archaeologist and museologist.
+description:  Ivers Finner (b.1982) is an Estonia based artist, writer, game developer (he did visuals for Playdead's Limbo), and archaeologist.
 
 start: 2023-08-08T11:10:42.984Z
 end: 2023-11-09T11:10:42.984Z

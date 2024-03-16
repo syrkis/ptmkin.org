@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feline Curér
+title: Atavisms
 artist: Feline Curér
 description: For the institute’s inaugural exhibition, Feline Curér has created
   an extensive floor installation that spans the entire first and second floors

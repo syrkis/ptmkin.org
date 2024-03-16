@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Mei Mii - Relics of Burden
+title: Relics of Burden
 artist: Mei Mii
-description: Mei Mii (b. 1981) is an archivist and artist based in Antwerpen, Belgium.
+description: Mei Mii (b. 1981) is an archivist and an associate professor at the Royal Academy of Fine Arts in Antwerpen.
 start: 2023-11-10T11:10:42.984Z
 end: 2024-01-23T11:10:42.984Z
 cover: /images/mei_1_clean.png
