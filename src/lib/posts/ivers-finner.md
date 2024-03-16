@@ -12,7 +12,7 @@ cover: /images/Hanging_1-transformed.jpeg
 
 Ivers Finner (b.1982) is an Estonia based artist, writer, game developer, archaeologist and museologist. 
 
-His practice, which spans multiple fields of interest, revolves largely around investigating man-made objects, particularly stone cxbøsculpture. In 2013 he and his research collective Fimir began laying the groundwork for what would later become the IAMD, the International Artefact Museum Database. 
+His practice, which spans multiple fields of interest, revolves largely around investigating man-made objects, particularly stone sculpture. In 2013 he and his research collective Fimir began laying the groundwork for what would later become the IAMD, the International Artefact Museum Database. 
 
 ![](/images/purpose_None_f4a070fa-41b6-4821-9ac5-56134404eb36.png)
 

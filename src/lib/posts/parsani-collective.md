@@ -13,7 +13,7 @@ Parsani collective consists of a multiplicitous rhizome of artists, restoration 
 
 ![](/images/purpose___None_2be52bc7-d2c1-4764-9d43-8e64a69af0df.png)
 
-In 2019, Parsani collective set up BAYT as a women’s shelter, exhibition space, and locus of activism. Here students from fashion academies across europe were invited for a series of residencies where they worked together with displaced women. Working under the auspices of the Parsani collective, this became a site of exchange of knowledge and of reciprocal learning between the students and the residents of the home. 
+In 2019, Parsani collective set up BAYT as a women’s shelter, exhibition space, and locus of activism. Here students from fashion academies across Europe were invited for a series of residencies where they worked together with displaced women. Working under the auspices of the Parsani collective, this became a site of exchange of knowledge and of reciprocal learning between the students and the residents of the home. 
 
 ![](/images/purpose_In_a_david_zwirner_kunsthalle_without_any_people_in_it_c1fe2a15-8ba9-4c4f-9186-b40da4c307d6.png)
 
