@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Harry by the Watershed
+title: Harried by the Watershed
 artist: Ivers Finner
 description:  Ivers Finner (b.1982) is an Estonia based artist, writer, game developer (he did visuals for Playdead's Limbo), and archaeologist.
 
